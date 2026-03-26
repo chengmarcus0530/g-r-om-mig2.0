@@ -12,31 +12,40 @@
       <h1>Way Back Machine</h1>
       <p class="tagline">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
       <form class="search-bar">
-        <input type="text" placeholder="Search archived sites..." />
+        <input type="text" placeholder="Enter a URL or Words related to a site´s homepage" />
         <button type="submit">Search</button>
       </form>
     </div>
   </header>
   <nav class="site-nav">
     <div class="container">
-      <a href="">Web</a>
-      <a href="">Books</a>
-      <a href="">Video</a>
-      <a href="">Audio</a>
-      <a href="">Collections</a>
+        <a href="#" data-category="web">Web</a>
+        <a href="#" data-category="books">Books</a>
+        <a href="#" data-category="video">Video</a>
+        <a href="#" data-category="audio">Audio</a>
+        <a href="#" data-category="collections">Collections</a>
     </div>
   </nav>
+  <div id="dropdown-box" class="dropdown-info hidden">
+    <div class="dropdown-content container">
+      <h3 id="dropdown-title"></h3>
+      <p id="dropdown-text"></p>
+    </div>
+  </div>
   <main class="content container">
     <h2>Way Back Machine</h2>
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis autem eum doloribus, blanditiis non necessitatibus rerum saepe laborum voluptate amet ab cum eligendi adipisci quis a aspernatur, accusantium reiciendis. Quidem.</p>
-    <button class="primary-btn">Explore Now</button>
+    <button class="primary-btn">Open library</button>
   </main>
   <footer class="site-footer">
     <div class="container">
       <p>© Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate, deserunt!
 
       </p>
+      <p>About Us</p>
+      <p>Contact us</p>
     </div>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
